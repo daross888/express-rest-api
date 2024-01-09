@@ -1,7 +1,5 @@
 import { Request, Response } from 'express';
-import {UserService} from "../services/userService";
-
-const userService = new UserService();
+import { userService } from "../serviceLocator";
 
 export async function find(req: Request, res: Response) {
     try {
