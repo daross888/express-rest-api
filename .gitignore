@@ -1,0 +1,44 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# IDE and editor folders/files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Optional npm cache & error logs
+.npm/
+.npmrc
+
+# Optional eslint cache
+.eslintcache
+
+# Optional: Mac generated files
+__MACOSX/
+*.DS_Store
+
+# Optional: Yarn Integrity file
+.yarn-integrity
+
+# Optional: dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
